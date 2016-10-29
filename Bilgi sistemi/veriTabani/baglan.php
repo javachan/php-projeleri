@@ -1,10 +1,10 @@
-<?
+<?php
 
 //Veri tabanı sunucusuna bağlan.
 
 //$baglan = mysql_connect("localhost","root",""); //Bilgilerini Gir
 
-$db = new PDO('mysql:host=localhost;dbname=ogrenciBilgi','root');
+$db = new PDO('mysql:host=localhost;dbname=ogrenciBilgi','root','123');
 
 
 //$veriTabani = mysql_select_db("ogrenciBilgi",$baglan); //Veritabanını Seç.

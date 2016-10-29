@@ -13,7 +13,7 @@
         </div>
         <div class="panel-body">
             <div class="col-md-6" style="text-align: center">
-                <h3 style="text-align: center"><b style="text-align: center">Contanct Us</></b></h3><br>
+                <h3 style="text-align: center"><b style="text-align: center">Contact Us</></b></h3><br>
                 <b>Phone number: 0505 977 54 40</br></b>
                 <b>Email: ahmetekti@tedbilisim.com</br></b>
                 <b>Skype: ahmetekti@outlook.com.tr</b>
