@@ -6,7 +6,7 @@ include "bilesenler/bas.php";
 
 include "bilesenler/ustmenu.php";
 
-include "kontroller/anasayfa/anasayfa.php";
+include "kontroller/kategori/anasayfa.php";
 
 include "bilesenler/sagmenu.php";
 
