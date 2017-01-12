@@ -18,11 +18,35 @@ echo "</form>";
 <!-- Pager -->
 <ul class="pager">
     <li class="previous">
-        <a href="oku.php?yazi=<?=$okunacakYazi['id']-1?>">&larr; Önceki Sayfa</a>
-    </li>
-    <li class="next">
-        <a href="oku.php?yazi=<?=$okunacakYazi['id']+1?>">Sonraki Sayfa &rarr;</a>
+       <?
 
+        foreach ($yazilar as $yazi)
+        {
+            if($gelen_id-1  == $yazi["id"]) //Bir önceki id ye bakar veritabanında var mı diye ?
+            {
+                echo " <a href=\"oku.php?yazi="; //Eğer varsa butonu oraya koyar.
+                echo $okunacakYazi['id']-1;
+                echo "\">&larr; Önceki Sayfa</a>";
+                echo "    </li>";
+            }
+        }
+        $yazilar = $db->query('SELECT * FROM yazilar');  //Veritabanından tekrar veri çekilir.
+
+        ?>
+    <li class="next">
+        <?
+        foreach ($yazilar as $yazi)
+        {
+            if($gelen_id+1  == $yazi["id"])  //Bir sonraki id ye bakar veritabanında var mı diye ?
+            {
+                echo " <a href=\"oku.php?yazi="; //Eğer varsa butonu oraya koyar.
+                echo $okunacakYazi['id']+1;
+                echo "\">Sonraki Sayfa &rarr; </a>";
+                echo "    </li>";
+            }
+        }
+        $yazilar = $db->query('SELECT * FROM yazilar'); //Veritabanından tekrar veri çekilir.
+        ?>
     </li>
 </ul>
 

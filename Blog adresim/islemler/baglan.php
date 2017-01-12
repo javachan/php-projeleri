@@ -7,9 +7,7 @@ try {
 
     include "ana.php";
 
-    include "kategori.php";
-
-    include "okunacak.php";
+    include "guvenlik.php";
 
 } catch ( PDOException $e )
 {
