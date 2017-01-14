@@ -1,5 +1,6 @@
 <?php
 
+
 $gelen_id=$_GET['yazi'];
 
 if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/oku.php") //URL: kategoriler üzerindeysek işlem yapsın.
@@ -35,9 +36,10 @@ if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/oku.php") //URL: kategoriler 
 $yazilar = $db->query('SELECT * FROM yazilar'); //İnternet sitesinin içeriği çekilir.
 
 
+
+
 $kategoriAdi = $_GET["id"]; //Seçilen kategoride sayfa getirmek için gereklidir.
 $kategoriYazilari = $db->query("SELECT * FROM yazilar where kategoriAdi='$kategoriAdi'");
-
 if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/kategoriler.php") //URL: kategoriler üzerindeysek işlem yapsın.
 {
     foreach ($kategoriler as $yazi)
@@ -47,17 +49,74 @@ if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/kategoriler.php") //URL: kate
             $suzgecKategori = "temiz"; //Kategori Kontrolünü yapıyoruz eğer gelen veri temizse geçebilir.
         }
     }
-
     if($suzgecKategori != "temiz") ////Süçgeçten geçemezse ana sayfaya yönlendirilsin.
     {
         echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
         exit();
     }
-
 }
-
 $kategoriler = $db->query('SELECT * FROM kategoriler'); //İşlem yapıldıktan sonra çağırmak gerekiyor.
 
 
+
+$enson_yazi = $db->query("SELECT MAX(id) FROM yazilar"); //En son yazılan yazının numarasını bulur.
+$enson_yazi = $enson_yazi ->fetch(PDO::FETCH_ASSOC);
+
+foreach ($enson_yazi as $ensonYazi) //En son yazının id değerini öğrenmek için yapıyoruz.
+{
+}
+
+$sayfaNo = $_GET["sayfaNo"];
+$yazilar = $db->query('SELECT * FROM yazilar'); //İnternet sitesinin içeriği çekilir.
+
+
+if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/index.php") //URL: kategoriler üzerindeysek işlem yapsın.
+{
+
+    if($sayfaNo != NULL)
+    {
+
+        if (ctype_digit ($sayfaNo)) //Anasayfaya giriş yapmamasının nedenidir.
+        {
+            foreach ($yazilar as $yazi)
+            {
+                echo "a";
+
+                if($sayfaNo <= $ensonYazi/5+1) //Basılan sayfa numarası id değeri olan en büyük yazının 5e bölümünden 1 fazlasından küçük olmalıdır.
+                {
+                    $yazilar = $db->prepare("SELECT * FROM yazilar WHERE id > ? and id <= ? ORDER BY id DESC ");
+
+                    $yazilar->execute(array( $ensonYazi - ($_GET["sayfaNo"]*5), $ensonYazi - $_GET["sayfaNo"]*5+5 ));
+                    $suzgecSayfa = "temiz";
+                }
+                else
+                {
+                    //Ana sayfaya aktarsın.
+                    echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+                    exit();
+                }
+            }
+            if($suzgecSayfa  != "temiz")
+            {
+                //Ana sayfaya aktarsın.
+                echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+                exit();
+            }
+        }
+        else
+        {
+            //Ana sayfaya aktarsın.
+            echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+            exit();
+        }
+    }
+    else
+    {
+        $yazilar = $db->prepare("SELECT * FROM yazilar WHERE id > ? and id <= ? ORDER BY id DESC");
+
+        $yazilar->execute(array( 0, 5));
+
+    }
+}
 
 ?>

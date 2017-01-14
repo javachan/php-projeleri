@@ -1,5 +1,6 @@
 <?php
 
+
 //Atılan içerikler.
 foreach($yazilar as $yazi)
 {
@@ -21,23 +22,24 @@ foreach($yazilar as $yazi)
     echo "</form>";
 }
 ?>
-
-
-<ul class="pagination pagination-lg">
-    <li class="active"><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-</ul>
-
-
 <!-- Anasayfada sayfa değiştirilen yerdir. -->
-<ul class="pager">
-    <li class="previous">
-        <a href="#">&larr; Önceki Sayfa</a>
-    </li>
-    <li class="next">
-        <a href="#">Sonraki Sayfa &rarr;</a>
-    </li>
-</ul>
+
+<div class="container">
+    <div class="col-md-8" style="text-align: center;">
+        <ul class="pagination pagination-lg">
+            <?
+            $sayfa_sayisi = 0;
+            $yazilar = $db->query('SELECT * FROM yazilar'); //İnternet sitesinin içeriği çekilir.
+            foreach ($yazilar as $yazi)
+            {
+                if($yazi["id"] % 5 == 1)
+                {
+                    $sayfa_sayisi++;
+                    echo "<li><a href='index.php?sayfaNo=".$sayfa_sayisi."'>".$sayfa_sayisi."</a></li>";
+                }
+            }
+            ?>
+        </ul>
+    </div>
+</div>
+<br>

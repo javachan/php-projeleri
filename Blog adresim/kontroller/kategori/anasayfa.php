@@ -12,7 +12,12 @@ foreach($kategoriYazilari as $yazi)
     echo "<p><span class=\"glyphicon glyphicon-time\"></span> Yazının Tarih: ".$yazi["tarih"]."</p>";
     echo "<hr>";
     echo "<img class=\"img-responsive\" src='".$yazi["gorsel"]."' alt=\"\">";
-    echo "<hr>";
+
+    if($yazi["gorsel"] != NULL) //Görüntü kirliliği olmaması için böyle yapıyoruz.
+    {
+        echo "<hr>";
+    }
+
     echo "<p>".$yazi["kisa_icerik"]."</p>";
     echo "<input type=\"hidden\" name = 'yazi' value='".$yazi['id']."'>";
     echo "<a href='oku.php?yazi=".$yazi['id']."' class=\"btn btn-primary\"><span class=\"glyphicon glyphicon-chevron-right\"></span> Devamını oku</a>";
@@ -21,12 +26,28 @@ foreach($kategoriYazilari as $yazi)
 }
 
 ?>
-<!-- Pager -->
-<ul class="pager">
-    <li class="previous">
-        <a href="#">&larr; Önceki Sayfa</a>
-    </li>
-    <li class="next">
-        <a href="#">Sonraki Sayfa &rarr;</a>
-    </li>
-</ul>
+<!-- Anasayfada sayfa değiştirilen yerdir. -->
+
+<div class="container">
+    <div class="col-md-8" style="text-align: center;">
+        <ul class="pagination pagination-lg">
+            <?
+            $sayfa_sayisi = 0;
+            $icerik_sayisi = 0;
+            $kategoriYazilari = $db->query("SELECT * FROM yazilar where kategoriAdi='$kategoriAdi'");
+
+            foreach ($kategoriYazilari as $kategoriYazisi)
+            {
+                $icerik_sayisi++;
+
+                if($icerik_sayisi % 5 == 1)
+                {
+                    $sayfa_sayisi++;
+                    echo "<li><a href='kategoriler.php?id=".$kategoriAdi."&sayfaNo=".$sayfa_sayisi."'>".$sayfa_sayisi."</a></li>";
+                }
+            }
+            ?>
+        </ul>
+    </div>
+</div>
+<br>
