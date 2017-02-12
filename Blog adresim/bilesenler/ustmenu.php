@@ -9,7 +9,6 @@
 
 <!-- Sayfa içeriği -->
 <div class="container">
-    <div class="row">
 
         <!-- Bloğun ilk colonu -->
         <div class="col-md-8">

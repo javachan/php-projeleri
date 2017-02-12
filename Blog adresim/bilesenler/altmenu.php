@@ -7,19 +7,14 @@
  */
 
 ?>
-
 <!-- Footer -->
-
 <footer>
-    <div class="row">
-        <div class="col-lg-12">
+        <div class="col-md-8">
             <p>Bu internet sitesinin kodlarına <a href="http://www.github.com/ahmetekti" target="_blank">github</a> hesabımdan erişebilirsiniz.</p>
         </div>
         <!-- /.col-lg-12 -->
-    </div>
     <!-- /.row -->
 </footer>
-
 </div>
 <!-- /.container -->
 <!-- jQuery -->

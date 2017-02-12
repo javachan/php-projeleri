@@ -13,3 +13,21 @@ body {
     margin-top: 50px;
 
 }
+
+@media only screen and (max-width: 480px) and (min-width: 1px) {
+    .saat {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+    .saat {
+        display: none;
+    }
+}
+@media only screen and (max-width: 985px) and (min-width: 768px) {
+    .saat {
+        display: none;
+    }
+}
+

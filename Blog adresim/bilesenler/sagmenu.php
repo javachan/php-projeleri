@@ -9,10 +9,12 @@
 ?>
 
 </div>
+
+
 <!-- Sağ menü buradan başlamaktadır. -->
 <div class="col-md-4">
     <div class="saat">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <!-- Burada saat mevcuttur. -->
         <object width="200" height="200" data="http://www.webkodu.com/saat-takvim/wk-27.swf" type="application/x-shockwave-flash">
             <param value="http://www.webkodu.com/saat-takvim/wk-27.swf" name="movie">
@@ -40,9 +42,7 @@
     <div class="well">
         <h4>Günün Sözü</h4>
         <p>
-
             <? include "kontroller/anasayfa/gununSozu.php"?>
-
         </p>
     </div>
 </div>
