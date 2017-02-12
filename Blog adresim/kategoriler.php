@@ -1,6 +1,6 @@
-<?
+﻿<?
 
-if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/kategoriler.php") //URL: kategoriler üzerindeysek işlem yapsın.
+if($_SERVER['SCRIPT_NAME'] == "/kategoriler.php") //URL: kategoriler üzerindeysek işlem yapsın.
 {
     include "islemler/baglan.php";
 

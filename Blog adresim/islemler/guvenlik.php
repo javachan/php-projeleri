@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 
 
 $gelen_id=$_GET['yazi'];
 
-if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/oku.php") //URL: kategoriler üzerindeysek işlem yapsın.
+if($_SERVER['SCRIPT_NAME'] == "/oku.php") //URL: kategoriler üzerindeysek işlem yapsın.
 {
     if (ctype_digit ($gelen_id)) //Anasayfaya giriş yapmamasının nedenidir.
     {
@@ -22,39 +22,76 @@ if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/oku.php") //URL: kategoriler 
         if($suzgecYazi != "temiz")
         {
             //Ana sayfaya aktarsın.
-            echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+            echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
             exit();
         }
     }
     else //Süçgeçten geçemezse ana sayfaya yönlendirilsin.
     {
-        echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+        echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
         exit();
     }
 
 }
 $yazilar = $db->query('SELECT * FROM yazilar'); //İnternet sitesinin içeriği çekilir.
 
-
-
-
 $kategoriAdi = $_GET["id"]; //Seçilen kategoride sayfa getirmek için gereklidir.
-$kategoriYazilari = $db->query("SELECT * FROM yazilar where kategoriAdi='$kategoriAdi'");
-if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/kategoriler.php") //URL: kategoriler üzerindeysek işlem yapsın.
+
+
+if($_SERVER['SCRIPT_NAME'] == "/kategoriler.php") //URL: kategoriler üzerindeysek işlem yapsın.
 {
     foreach ($kategoriler as $yazi)
     {
         if($kategoriAdi == $yazi["kategoriAdi"])
         {
+            $sayfaNo = $_GET["sayfaNo"];
+            $makaleSayisi =0;
+            $makaleDizisi = array();
+
+            if($sayfaNo == NULL)
+            {
+                $sayfaNo = "1";
+            }
+
+            if (ctype_digit($sayfaNo)) //Anasayfaya giriş yapmamasının nedenidir.
+            {
+                $kategoriYazilari = $db->query("SELECT * FROM yazilar where kategoriAdi='$kategoriAdi' ORDER BY id DESC ");
+
+                foreach ($kategoriYazilari as $kategoriYazisi)
+                {
+                    $makaleSayisi++;
+                    array_push($makaleDizisi,$kategoriYazisi["id"]);
+                }
+
+                if($sayfaNo <= $makaleSayisi/5+1)
+                {
+                    $suzgecKategori= "temiz"; //O sayı var mı diye kontrol etsin yoksa;
+                }
+
+                if($suzgecKategori != "temiz")
+                {
+                    //Ana sayfaya aktarsın.
+                    echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
+                    exit();
+                }
+            }
+            else
+            {
+                //Ana sayfaya aktarsın.
+                echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
+                exit();
+            }
+
             $suzgecKategori = "temiz"; //Kategori Kontrolünü yapıyoruz eğer gelen veri temizse geçebilir.
         }
     }
     if($suzgecKategori != "temiz") ////Süçgeçten geçemezse ana sayfaya yönlendirilsin.
     {
-        echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+        echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
         exit();
     }
 }
+
 $kategoriler = $db->query('SELECT * FROM kategoriler'); //İşlem yapıldıktan sonra çağırmak gerekiyor.
 
 
@@ -70,7 +107,8 @@ $sayfaNo = $_GET["sayfaNo"];
 $yazilar = $db->query('SELECT * FROM yazilar'); //İnternet sitesinin içeriği çekilir.
 
 
-if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/index.php") //URL: kategoriler üzerindeysek işlem yapsın.
+
+if($_SERVER['SCRIPT_NAME'] == "/index.php") //URL: kategoriler üzerindeysek işlem yapsın.
 {
 
     if($sayfaNo != NULL)
@@ -80,7 +118,6 @@ if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/index.php") //URL: kategorile
         {
             foreach ($yazilar as $yazi)
             {
-                echo "a";
 
                 if($sayfaNo <= $ensonYazi/5+1) //Basılan sayfa numarası id değeri olan en büyük yazının 5e bölümünden 1 fazlasından küçük olmalıdır.
                 {
@@ -92,21 +129,21 @@ if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/index.php") //URL: kategorile
                 else
                 {
                     //Ana sayfaya aktarsın.
-                    echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+                    echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
                     exit();
                 }
             }
             if($suzgecSayfa  != "temiz")
             {
                 //Ana sayfaya aktarsın.
-                echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+                echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
                 exit();
             }
         }
         else
         {
             //Ana sayfaya aktarsın.
-            echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://localhost/internetSitem/blog\">";
+            echo "<meta http-equiv=\"refresh\" content=\"0;URL=http://ahmet.xyz\">";
             exit();
         }
     }
@@ -114,7 +151,7 @@ if($_SERVER['SCRIPT_NAME'] == "/internetSitem/blog/index.php") //URL: kategorile
     {
         $yazilar = $db->prepare("SELECT * FROM yazilar WHERE id > ? and id <= ? ORDER BY id DESC");
 
-        $yazilar->execute(array( 0, 5));
+        $yazilar->execute(array( $ensonYazi-5, $ensonYazi));
 
     }
 }

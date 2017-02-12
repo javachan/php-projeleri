@@ -1,7 +1,6 @@
 <?
-foreach ($kategoriler as $kategori)
+foreach ($gununSozu as $soz)
 {
-    echo "<hr>";
-    echo"<li class='show' style='text-align: center;'><a style='color: slateblue' href=\"#\">".$kategori["kategoriAdi"].' - ('.$kategori["icerikSayisi"].' adet yazı)'."</a></li>";
+    echo $soz["gununSozu"];
 }
 ?>

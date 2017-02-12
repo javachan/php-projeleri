@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: ahmetekti
@@ -17,8 +17,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta name="description" content="Ahmet Ekti Kişisel Blog Adresi">
+  <meta name="keywords" content="ahmet ekti,ahmet,bilişim sistemleri mühendisliği,ektiahmet,ahmetekti,muğla sıtkı koçman üniversitesi">
+  <meta name="author" content="Ahmet Ekti">
+
+
 
     <title>Ahmet Ekti - Bilgi Aşktır.</title>
 
