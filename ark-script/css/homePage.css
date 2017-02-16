@@ -1,0 +1,40 @@
+head{
+    background:url("/resimler/background.jpg") 0 0 no-repeat fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
+
+#Kapsul{
+    display: table;
+    height: 400px;
+    #position: relative;
+    overflow: hidden;
+}
+#IcerikAlani{
+    #position: absolute;
+    #top: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#hakkimizda
+{
+    #position: relative;
+    #top: -50%;
+}
+
+#kurallar
+{
+    #position: relative;
+    #top: -40%;
+}
+
+li{
+    font-size: x-large;
+    color: bisque;
+
+}
+

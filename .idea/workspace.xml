@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ec445b9-72db-46b0-a1af-0d67fb826ce4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/resimler/facebook.png" afterPath="$PROJECT_DIR$/Bilgi sistemi/resimler/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/resimler/four.jpg" afterPath="$PROJECT_DIR$/Bilgi sistemi/resimler/four.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/resimler/instagram.png" afterPath="$PROJECT_DIR$/Bilgi sistemi/resimler/instagram.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/resimler/twitter.png" afterPath="$PROJECT_DIR$/Bilgi sistemi/resimler/twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/veriTabani/ogrenciBilgi.sql.zip" afterPath="$PROJECT_DIR$/Bilgi sistemi/veriTabani/ogrenciBilgi.sql.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/img.zip" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/img.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/arduino.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/arduino.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/asp.net.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/asp.net.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/c#.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/c#.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/c.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/cake.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/cake.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/circus.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/circus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/game.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/game.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/github.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/github.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/php.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/php.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/python.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/python.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/safse.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/safse.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/submarine.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/submarine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/yapimAsamasi.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/portfolio/yapimAsamasi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/img/profile.png" afterPath="$PROJECT_DIR$/www.ahmetekti.com/img/profile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/.idea/Bilgi sistemi.iml" afterPath="$PROJECT_DIR$/Bilgi sistemi/.idea/Bilgi sistemi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/Bilgi sistemi/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/.idea/misc.xml" afterPath="$PROJECT_DIR$/Bilgi sistemi/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/.idea/modules.xml" afterPath="$PROJECT_DIR$/Bilgi sistemi/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Bilgi sistemi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/animasyon.js" afterPath="$PROJECT_DIR$/Bilgi sistemi/animasyon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/duyurular.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/duyurular.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/footer.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/functions.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/giris.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/giris.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/header.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/sorgu.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/sorgu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/stil.css" afterPath="$PROJECT_DIR$/Bilgi sistemi/stil.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/veriTabani/baglan.php" afterPath="$PROJECT_DIR$/Bilgi sistemi/veriTabani/baglan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bilgi sistemi/veriTabani/ogrenciBilgi.sql" afterPath="$PROJECT_DIR$/Bilgi sistemi/veriTabani/ogrenciBilgi.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/.ftpquota" afterPath="$PROJECT_DIR$/Blog adresim/.ftpquota" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/.idea/Blog adresim.iml" afterPath="$PROJECT_DIR$/Blog adresim/.idea/Blog adresim.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/Blog adresim/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/.idea/misc.xml" afterPath="$PROJECT_DIR$/Blog adresim/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/.idea/modules.xml" afterPath="$PROJECT_DIR$/Blog adresim/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Blog adresim/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/LICENSE" afterPath="$PROJECT_DIR$/Blog adresim/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/README.md" afterPath="$PROJECT_DIR$/Blog adresim/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/bilesenler/altmenu.php" afterPath="$PROJECT_DIR$/Blog adresim/bilesenler/altmenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/bilesenler/bas.php" afterPath="$PROJECT_DIR$/Blog adresim/bilesenler/bas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/bilesenler/sagmenu.php" afterPath="$PROJECT_DIR$/Blog adresim/bilesenler/sagmenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/bilesenler/ustmenu.php" afterPath="$PROJECT_DIR$/Blog adresim/bilesenler/ustmenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/css/blog-home.css" afterPath="$PROJECT_DIR$/Blog adresim/css/blog-home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/css/bootstrap.css" afterPath="$PROJECT_DIR$/Blog adresim/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Blog adresim/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/error_log" afterPath="$PROJECT_DIR$/Blog adresim/error_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/Blog adresim/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/index.php" afterPath="$PROJECT_DIR$/Blog adresim/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/islemler/ana.php" afterPath="$PROJECT_DIR$/Blog adresim/islemler/ana.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/islemler/baglan.php" afterPath="$PROJECT_DIR$/Blog adresim/islemler/baglan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/islemler/guvenlik.php" afterPath="$PROJECT_DIR$/Blog adresim/islemler/guvenlik.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/js/bootstrap.js" afterPath="$PROJECT_DIR$/Blog adresim/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Blog adresim/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/js/jquery.js" afterPath="$PROJECT_DIR$/Blog adresim/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kategoriler.php" afterPath="$PROJECT_DIR$/Blog adresim/kategoriler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/anasayfa/anasayfa.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/anasayfa/anasayfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/anasayfa/gununSozu.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/anasayfa/gununSozu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/anasayfa/kategori.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/anasayfa/kategori.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/kategori/anasayfa.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/kategori/anasayfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/kategori/gununSozu.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/kategori/gununSozu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/kategori/kategori.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/kategori/kategori.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/okuma/anasayfa.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/okuma/anasayfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/okuma/gununSozu.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/okuma/gununSozu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/kontroller/okuma/kategori.php" afterPath="$PROJECT_DIR$/Blog adresim/kontroller/okuma/kategori.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog adresim/oku.php" afterPath="$PROJECT_DIR$/Blog adresim/oku.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/.gitignore" afterPath="$PROJECT_DIR$/www.ahmetekti.com/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/www.ahmetekti.com/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/.idea/internetSitem.iml" afterPath="$PROJECT_DIR$/www.ahmetekti.com/.idea/internetSitem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/.idea/misc.xml" afterPath="$PROJECT_DIR$/www.ahmetekti.com/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/.idea/modules.xml" afterPath="$PROJECT_DIR$/www.ahmetekti.com/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/.idea/workspace.xml" afterPath="$PROJECT_DIR$/www.ahmetekti.com/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/LICENSE" afterPath="$PROJECT_DIR$/www.ahmetekti.com/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/README.md" afterPath="$PROJECT_DIR$/www.ahmetekti.com/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/blog.sql" afterPath="$PROJECT_DIR$/www.ahmetekti.com/blog.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/css/freelancer.css" afterPath="$PROJECT_DIR$/www.ahmetekti.com/css/freelancer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/css/freelancer.min.css" afterPath="$PROJECT_DIR$/www.ahmetekti.com/css/freelancer.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/gulpfile.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/index.php" afterPath="$PROJECT_DIR$/www.ahmetekti.com/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/islemler/baglan.php" afterPath="$PROJECT_DIR$/www.ahmetekti.com/islemler/baglan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/js/contact_me.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/js/contact_me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/js/freelancer.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/js/freelancer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/js/freelancer.min.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/js/freelancer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/js/jqBootstrapValidation.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/js/jqBootstrapValidation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/less/freelancer.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/less/freelancer.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/less/mixins.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/less/variables.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/mail/contact_me.php" afterPath="$PROJECT_DIR$/www.ahmetekti.com/mail/contact_me.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/screen-reader.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.ahmetekti.com/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/www.ahmetekti.com/vendor/jquery/jquery.min.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog adresim/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www.ahmetekti.com/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <marker date="1483937311646" expanded="true" signature="57:78" ph="SELECT * FRO... portfoy" />
+                <marker date="1483937311646" expanded="true" signature="133:157" ph="SELECT * FRO... projelerim" />
+                <marker date="1483937311646" expanded="true" signature="17494:17518" ph="SELECT * FRO... projelerim" />
+                <marker date="1483937311646" expanded="true" signature="21739:21763" ph="SELECT * FRO... projelerim" />
+                <marker date="1483937311646" expanded="true" signature="26049:26073" ph="SELECT * FRO... projelerim" />
+                <marker date="1483937311646" expanded="true" signature="30381:30405" ph="SELECT * FRO... projelerim" />
+                <marker date="1483937311646" expanded="true" signature="36928:36952" ph="SELECT * FRO... projelerim" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="47" />
+    <option name="width" value="1024" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-projeleri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-projeleri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ark-script" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ec445b9-72db-46b0-a1af-0d67fb826ce4" name="Default" comment="" />
+      <created>1487188282675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487188282675</updated>
+      <workItem from="1487188284869" duration="1254000" />
+      <workItem from="1487201681399" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1277000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="47" width="1024" height="701" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Blog adresim/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.ahmetekti.com/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1483937311646" expanded="true" signature="57:78" ph="SELECT * FRO... portfoy" />
+            <marker date="1483937311646" expanded="true" signature="133:157" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="17494:17518" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="21739:21763" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="26049:26073" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="30381:30405" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="36928:36952" ph="SELECT * FRO... projelerim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog adresim/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.ahmetekti.com/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <marker date="1483937311646" expanded="true" signature="57:78" ph="SELECT * FRO... portfoy" />
+            <marker date="1483937311646" expanded="true" signature="133:157" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="17494:17518" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="21739:21763" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="26049:26073" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="30381:30405" ph="SELECT * FRO... projelerim" />
+            <marker date="1483937311646" expanded="true" signature="36928:36952" ph="SELECT * FRO... projelerim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
