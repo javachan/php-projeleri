@@ -79,7 +79,7 @@ $projeler = $db->query('SELECT * FROM projelerim');
                         <a href="#contact">İletisim</a> <!-- Yukarıdaki url alanı için geçerlidir. -->
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolioModal7"  class="portfolio-link" data-toggle="modal">Blog</a>
+                        <a href="http://ahmetekti.com/blog" target="_blank"  class="portfolio-link" data-toggle="modal">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -303,7 +303,7 @@ $projeler = $db->query('SELECT * FROM projelerim');
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Open Source</h3>
-                        <p>Burada gezdiğiniz web sayfası açık kaynak olarak üretilmiştir. İstediğiniz taktirde sayfanın kodlarına burada ulaşabilirsiniz:  <a href="http://github.com">Github/AhmetEkti</a></p>
+                        <p>Burada gezdiğiniz web sayfası açık kaynak olarak üretilmiştir. İstediğiniz taktirde sayfanın kodlarına burada ulaşabilirsiniz:  <a href="https://github.com/AhmetEkti/php-projeleri/tree/master/www.ahmetekti.com" target="_blank">Github/AhmetEkti</a></p>
                     </div>
                 </div>
             </div>
