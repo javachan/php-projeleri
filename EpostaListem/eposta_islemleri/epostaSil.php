@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="kullaniciAra col-lg-4">
+<div class="kullaniciSil col-lg-4">
 
     <h3> <span class="label label-default">-</span> Eposta Sil <span class="label label-default">-</span></h3>
 
@@ -16,6 +16,8 @@
         <input type="text" class="form-control" placeholder="Eposta adresini giriniz" aria-describedby="basic-addon2">
         <span class="input-group-addon" id="basic-addon2">@gmail.com</span>
     </div>
+
+    <button type="button" class="epostaButon btn btn-danger">Kaydet</button>
 
 </div>
 

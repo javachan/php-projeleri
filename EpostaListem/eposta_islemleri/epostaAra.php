@@ -17,5 +17,7 @@
         <input type="text" class="form-control" placeholder="Ad Soyad" aria-describedby="basic-addon1">
     </div>
 
+    <button type="button" class="epostaButon btn btn-info">Ara</button>
+
 </div>
 

@@ -8,7 +8,7 @@
 
 
 try{
-    $veritabani = new PDO("mysql:host=localhost;dbname=test","root","root");
+    $veritabani = new PDO("mysql:host=localhost;dbname=epostaListesi","root","root");
 
 }catch (Exception $e)
 {

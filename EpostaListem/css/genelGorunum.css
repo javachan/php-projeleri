@@ -3,8 +3,21 @@
     padding:20px;
 }
 
-.epostaKaydet{
+.epostaKaydet, .kullaniciSil, .kullaniciAra{
     padding:20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.epostaButon
+{
+    margin: 20px;
+    margin-left: 30%;
+    margin-right:30%;
+    padding:10px;
+    height: 40px;
+    width: 130px;
+    position: relative;
+
+
 }
