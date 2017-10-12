@@ -12,7 +12,7 @@
 
     <h3> <span class="label label-default">+</span> Eposta Kaydet <span class="label label-default">+</span></h3>
 
-    <form  method="get" name="epostaKaydet" action="fonksiyonlar/veriTabani_ekle.php">
+    <form  method="get" name="epostaKaydet" action="fonksiyonlar/veriTabani_listele.php">
 
         <div class="input-group">
         <span class="input-group-addon" id="basic-addon1">#</span>
