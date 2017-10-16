@@ -48,6 +48,49 @@ if( isset($_GET["kaydedildiMi"]) == true)
 </div>";
 }
 
+//Kullanıcı arama ekranıdır.
+if( isset($_GET["adSoyad"]) == true)
+{
+    ?>
 
+    <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading" style="text-align: center; font-size: large">Kullanıcı Bilgileri</div>
 
+    <!-- Table -->
+    <table class="table">
+    <tr>
+    <td>Ad Soyad</td>
+    <td>Email</td>
+    </tr>
+
+    <?
+
+    $adSoyad = $_GET["adSoyad"];
+
+    $adSoyad_listele = $veritabani->query("SELECT * FROM MSKU", PDO::FETCH_ASSOC);
+
+    foreach ($adSoyad_listele as $adSoyad_varMi)
+    {
+        //echo $adSoyad_varMi['adSoyad'];
+
+        $adSoyad_buldum = stristr($adSoyad_varMi['adSoyad'] , $adSoyad, false); //stristr büyük küçük harfe dikkat etmez.
+
+        $epostaListele = $veritabani->query("SELECT * FROM MSKU WHERE adSoyad='$adSoyad_buldum'" , PDO::FETCH_ASSOC);
+
+        foreach ($epostaListele as $eposta_varMi)
+        {
+            echo "<tr>";
+            $eposta_var = $eposta_varMi['email'];
+            echo "<td>$adSoyad_buldum</td>";
+            echo "<td>$eposta_var</td>";
+            echo "</tr>";
+            ?>
+<?
+        }
+
+    }
+}
+echo "    </table>
+            </div>";
 
