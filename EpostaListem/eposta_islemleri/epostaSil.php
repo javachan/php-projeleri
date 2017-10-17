@@ -8,16 +8,19 @@
 
 ?>
 
-<div class="kullaniciSil col-lg-4">
+<form method="get" action="../EpostaListem/fonksiyonlar/veriTabani_sil.php">
 
-    <h3> <span class="label label-default">-</span> Eposta Sil <span class="label label-default">-</span></h3>
+    <div class="kullaniciSil col-lg-4">
 
-    <div class="input-group">
-        <input type="text" class="form-control" placeholder="Eposta adresini giriniz" aria-describedby="basic-addon2">
-        <span class="input-group-addon" id="basic-addon2">@gmail.com</span>
+        <h3> <span class="label label-default">-</span> Eposta Sil <span class="label label-default">-</span></h3>
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Eposta adresini giriniz" aria-describedby="basic-addon2" name="emailSil">
+            <span class="input-group-addon" id="basic-addon2" >@gmail.com </span>
+        </div>
+
+        <button type="submit" class="epostaButon btn btn-danger">Sil</button>
+
     </div>
 
-    <button type="button" class="epostaButon btn btn-danger">Kaydet</button>
-
-</div>
-
+</form>
