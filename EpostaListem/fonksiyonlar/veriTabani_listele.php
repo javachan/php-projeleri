@@ -24,10 +24,8 @@ foreach ($sorguListele as $veri)
     }
 }
 
-
 //sonsuz sayfa yüklenmesi.
 echo $hata;
-
 
 if($hata == 0)
 {

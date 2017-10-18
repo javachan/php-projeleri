@@ -22,7 +22,7 @@ try{ //Verileri kaydedeceğimiz veritabanının bulunduğu kısımdır.
     print $e->getMessage();
 }
 
-$sorgu1 = $depoVeri->query("SELECT * FROM tablo2", PDO::FETCH_ASSOC); //Eklenecek tablonun isminin değiştirilmesi lazım.
+$sorgu1 = $depoVeri->query("SELECT * FROM tablo3", PDO::FETCH_ASSOC); //Eklenecek tablonun isminin değiştirilmesi lazım.
 $karsilastirma = 0;
 
 if ( $sorgu1->rowCount() ){
@@ -45,13 +45,11 @@ if ( $sorgu1->rowCount() ){
         {
             $sorgu3 = $veritabani ->prepare("INSERT INTO MSKU SET
             adSoyad = ?,
-            email = ?,
-            telNo = ?");
+            email = ?");//isteğe bağlı telNo eklenebilir.
 
             $kaydet = $sorgu3->execute(array(
                 $veri['adSoyad'],
-                $veri['email'],
-                $veri['telNo'] ));
+                $veri['email']));
 
             if ( $kaydet )
             {

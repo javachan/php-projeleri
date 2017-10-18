@@ -13,8 +13,8 @@
             <div class="btn-group" role="group">
                 <a href="/EpostaListem/eposta_islemleri.php"> <button type="button" class="btn btn-info">Eposta İşlemleri</button> </a>
             </div>
-            <div class="btn-group" role="group">
-                <button type="button" class="btn btn-success">Fonksiyon Çalıştır</button>
+            <a class="btn-group" role="group">
+                <a href="fonksiyon_calistir.php"> <button type="button" class="btn btn-success">Fonksiyon Çalıştır</button> </a>
             </div>
             <div class="btn-group" role="group">
                 <button type="button" class="btn btn-danger">Script Ayarları</button>

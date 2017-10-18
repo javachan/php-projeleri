@@ -12,7 +12,6 @@ $adSoyad = $_GET['adSoyad'];
 $email = $_GET['eMail'];
 $telNo = $_GET['telNo'];
 
-
 if($email != "null")
 {
     $ekleSorgu = $veritabani->prepare("INSERT INTO MSKU SET

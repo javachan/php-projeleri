@@ -18,6 +18,9 @@
     height: 40px;
     width: 130px;
     position: relative;
+}
 
-
+.toplamEposta
+{
+    margin-top:40px;
 }
